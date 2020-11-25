@@ -223,6 +223,9 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                  }
+
+                   bannerMoviesPagerAdapter = new BannerMoviesPagerAdapter(MainActivity.this, homeBannerMoviesList);
+                   bannerMoviesPagerAdapter.notifyDataSetChanged();
                }
 
                @Override

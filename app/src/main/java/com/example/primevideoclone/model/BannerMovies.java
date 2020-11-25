@@ -1,9 +1,13 @@
 package com.example.primevideoclone.model;
 
+import com.google.gson.annotations.SerializedName;
+
 public class BannerMovies {
 Integer bannerCategoryId;
     Integer Id;
     String movieName;
+
+    @SerializedName("imageUrl")
     String ImageUrl;
     String fileUrl;
 
